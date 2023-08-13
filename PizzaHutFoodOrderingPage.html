@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>pizza Hut</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <style>
+    .card:hover {
+      box-shadow: rgba(14, 14, 14, 0.22) 0px 19px 43px;
+      transform: translate3d(0px, -1px, 0px);
+      border: 2px;
+      border-color: black;
+    }
+
+    .box {
+      transition: box-shadow .3s;
+      width: 300px;
+      height: 50px;
+      border-radius: 10px;
+      border: 1px solid #ccc;
+      background: #fff;
+    }
+
+    .box:hover {
+      box-shadow: 0 0 11px rgba(3, 3, 3, 0.2);
+    }
+  </style>
+
+
+
+
+</head>
+
+<body>
+
+  <div class="container-flued">
+
+    <div class="row" style="width: 100%;">
+      <div class="col-2"></div>
+
+      <div class="col-3"><img src="./-1.png"></div>
+      <div class="col-6"></div>
+      <div class="col-1"><button type="button" class="btn btn-outline-primary" style="margin-top: 10px;">Sign
+          in</button></div>
+    </div>
+  </div>
+  </div>
+
+  <div class="bg-image" style=" background-image: url('./piz.jpeg'); height: 74vh;"></div>
+
+  <div class="container-flued">
+    <div class="row">
+      <div class="col-4"></div>
+      <div class="col-4 bg-white"
+        style="margin-top: -200px;transform: scale-1.05;box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12),0 4px 4px rgba(0, 0, 0, 0.06); height: 260px;">
+        <ul class="nav nav-tabs" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link bg-secondary text-danger" style="width: 235px;" data-bs-toggle="tab" href="#delivery">
+              <i class="bi bi-truck"></i><img src="./7.3.gif">
+              <span><b>Delivery</b></span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active bg-secondary text-danger" style="width: 235px;" data-bs-toggle="tab"
+              href="#takeaway">
+              <i class="bi bi-collection"><img src="./7.4.gif"></img><span><b>Takeaway</b></span>
+            </a>
+          </li>
+        </ul>
+
+        <!-- Tab panes -->
+        <div class="tab-content">
+          <div id="delivery" class="container tab-pane active">
+            <br>
+            <h6><b> CONTACTLESS DELIVERY</b></h6>
+            <p>Contactless Delivery is now available!<a class="text-dark" href="#">Learn more</a></p>
+            <div class="flex border border-gray-light rounded z-300">
+              <div class="p-2 border flex items-stretch" style="height: 60px">
+                <input type="text" style="width: 300px" placeholder="Enter Your Location for delivery"
+                  class="input border-0" />
+              </div>
+              <div class="flex flex-col" style="height: 40px">
+                <button class="text-primary bg-white input border-0" data-synth="link--grolocation"
+                  data-item-type="link" data-item-id="grolocation-button">
+                  <span class="flex items-center" data-item-id="grolocation-button">
+                    <div data-item-id="grolocation-button">
+
+                      <i class="material-icons">&#xe569;</i>
+                      <small>Find my current location</small>
+                    </div>
+                  </span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div id="takeaway" class="container tab-pane active">
+            <br />
+            <h6><b>CONTACTLESS TAKEAWAY IS NOW AVAILABLE.</b></h6>
+            <p>
+              Order Online & collect safely.
+            </p>
+            <div class="flex border border-gray-light rounded z-300">
+              <div class="p-2 border flex items-stretch" style="height: 60px">
+                <input type="text" style="width: 300px" placeholder="Enter Your Takeaway location"
+                  class="input border-0" />
+              </div>
+              <div class="flex flex-col" style="height: 40px">
+                <button class="text-primary bg-white input border-0" data-synth="link--grolocation"
+                  data-item-type="link" data-item-id="grolocation-button">
+                  <span class="flex items-center" data-item-id="grolocation-button">
+                    <div data-item-id="grolocation-button">
+
+                      <i class="material-icons">&#xe569;</i>
+                      <small> Find my current location</small>
+                    </div>
+                  </span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <br>
+
+      <!-- <div class="row">
+        <div class="col-12" style="height: 200px;background-color: antiquewhite;"></div>
+       </div> -->
+      <br>
+      <hr>
+      <h3 style="text-align: center;margin-top: -35px;background-color:white;box-shadow: #fff;">Our Most Popular Deals
+      </h3>
+      <br>
+      <div class="row">
+        <div class="col-2"></div>
+        <div class="col-4"><img src="./7.1.jpg" height="100%" width="100%"></div>
+        <div class="col-4"><img src="./7.2.jpg" height="100%" width="100%"></div>
+        <div class="col-2"></div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-2"></div>
+        <div class="col-8">
+          <button type="button" class="btn btn-success btn-lg" style="width: 100%;">View all Deals</button>
+        </div>
+        <div class="col-2"></div>
+      </div>
+      <br>
+    </div>
+  </div>
+  </div>
+
+
+
+
+
+
+  <div class="bg-image" style=" background-image: url('./bg2.png'); height: 72vh;">
+    <div class="container-flued">
+      <div class="row">
+        <div class="col-2" style="margin-top: 50px;"></div>
+
+        <div class="col-2" style="margin-top: 50px;">
+          <h6 style="color: white;">Order Now</h6><br>
+          <p style="color: white;">
+            Deals<br>
+            Pizza<br>
+            Sides<br>
+            Drinks<br>
+            Desserts
+          <p></p>
+        </div>
+        <div class="col-2" style="margin-top: 50px;">
+          <h6 style="color: white;">About Us</h6><br>
+          <p style="color: white;">
+            About Us<br>
+            Contactless Delivery<br>
+            Nutrition<br></p>
+
+        </div>
+        <div class="col-2" style="margin-top: 50px;">
+          <h6 style="color: white;">Our Policies </h6><br>
+          <p style="color: white;">
+            Terms & Condition<br>
+            FAQ & Help<br>
+          </p>
+
+        </div>
+        <div class="col-2" style="margin-top: 50px;">
+          <h6 style="color: white;">Visit Pizza Hut</h6><br>
+          <p style="color: white;">
+            Locate a store<br>
+            Global Blog<br>
+        </div>
+        <div class="col-2" style="margin-top: 100px;"></div>
+        <div class="row">
+          <div class="col-5"></div>
+          <div class="col-1"><img src="./bg4.png"></button></div>
+        </div>
+
+        <div class="row">
+          <div class="col-2"></div>
+          <div class="col-5">
+            <p style="color: white;">Help us in serving you better<button type="submit" class="btn btn-light"
+                style="margin-left: 10px;">Give Feadback</button></p>
+          </div>
+          <div class="col-3"><img src="./bg3.png"><img></div>
+        </div>
+
+        <div class="row">
+          <div class="col-2"></div>
+          <div class="col-8">
+            <p style="color: rgb(220, 219, 219); font-size: x-small; text-align: center;">Order a delicious pizza on
+              the go, anywhere, anytime. Pizza Hut is happy to assist you with your home delivery. Every time you
+              order, you get a hot and fresh pizza delivered at your doorstep in less than thirty minutes. *T&C
+              Apply.<br>
+
+              Hurry up and place your order now!<br>
+
+              © 2023 Pizza Hut India. All rights reserved. License Number: 10017011004220</p>
+          </div>
+
+          <div class="col-2"></div>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
